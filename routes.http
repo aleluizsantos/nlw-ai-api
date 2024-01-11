@@ -1,0 +1,12 @@
+# @name generate-ai-coompletion
+
+POST http://localhost:3333/ai/generate
+Content-Type: application/json
+
+{
+    "videoId": "2dd1d101-2039-4b6e-8d69-362a3ba156fd",
+    "temperature": 0.5,
+    "template": "Gere um resumo sucinto da transcrição do vídeo informada a seguir: '''{transcription}'''"
+}
+
+###informar para a inteligencia artificial que inicia o texto e termina o texto, colocca entre '''TEXT'''
